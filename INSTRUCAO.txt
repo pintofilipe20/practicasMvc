@@ -1,0 +1,15 @@
+1-Execute o ficheiro da base de dados;
+2-Instale o composer;
+3-Preecha as seguintes constantes:
+"autoload":{
+    	
+"psr-4":{
+    		
+"App\\":"../app/",
+   
+ 		
+"Src\\":"../src/"
+    	
+}
+  
+ }

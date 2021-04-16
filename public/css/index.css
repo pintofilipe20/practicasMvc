@@ -1,0 +1,482 @@
+/**
+ * Copyright © 2021 por Pinto Filipe
+ * Todos os direitos reservados.
+ * Faça a sua parte e ajude alguém partilhando projectos(Open Source).
+ * A única forma de evoluirmos é Partilhando ideia.
+ * Qualquer sugestão é bem Vinda.
+ * Eis a minha contribuição.
+ */
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 98%;
+    border: none;
+    outline: none;
+    font-weight:300;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+}
+body{
+    background: #red;
+}
+/*TRATAMENTO DO HEADER*/
+.Header{
+    width: 100%;
+    float: left;
+    background: #000;
+    height: 60px;
+}
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+.logo{
+   
+    width: 20%;
+    float: left;
+}
+.logo h1{
+    font-size: 1.5em;
+    color: 	#FF1493;
+    font-weight: 600;
+   font-family: Pump Demi Bold LET;
+}
+.menu{
+    width: 80%;
+    float: left;
+}
+.menu ul{
+    width: auto;
+    float:right;
+}
+.menu ul li{
+    margin-right:6px;
+    float: left;
+}
+.menu ul li a{
+    line-height: 30px;
+    font-size: 1.1em;
+}
+/*TRATAMENTO DA MAIN*/
+.banner{
+    width: 100%;
+    float: left;
+   
+}
+.banner img{
+    width: 100%;
+    float: left;
+     height: 200px;
+}
+.titulo {
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 1.6em;
+  font-weight: bold;
+  color: #bd1886;
+}
+.fazemos{
+    width: 100%;
+    padding: 2%;
+    float: left;
+    background: #2d2d2d;
+    color: #fff;
+}
+.fazemos h1{
+    margin-top: 10%;
+}
+.fazemos span{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 20px;
+}
+.fazemos h3{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    
+}
+.cards{
+    width: 100%;
+    float: left;
+    
+}
+.card{
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    background: #2e3858;
+    height: 230px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+.card:hover{
+    background: #fff;
+    color:#bd1886;
+    transition: .6s ease-in-out;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px #ddd;
+}
+
+.card p{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5%;
+    line-height: 28px;
+   
+}
+.diserReserva{
+    display: none;
+}
+.Reserva{
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:1px solid #ddd;
+}
+/*=========Tratamento de formulario*/
+form{
+    width: 90%;
+    margin-left: 5%;
+    background: #fff;
+    float: left;
+}
+label{
+     width: 90%;
+    margin-left: 5%;
+    float: left;
+    text-align: left;
+    font-size: 1.2em;
+    opacity: .8;
+    color: #000;
+    margin-top: 10px;
+    
+}
+form input[type="text"]{
+    width: 94%;
+    margin-left: 3%;
+    padding: 2%;
+    border:1px solid #ddd;
+    margin-top: 6px;
+    float: left;
+    font-size: 1em;
+}
+form input[type="password"]{
+    width: 94%;
+    margin-left: 3%;
+    padding: 2%;
+    border:1px solid #ddd;
+    margin-top: 6px;
+    float: left;
+    font-size: 1em;
+}
+form textarea{
+    width: 94%;
+    margin-left: 3%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 230px;
+    font-size: 1.4em;
+    border: 1px solid #ddd;
+}
+form input[type="submit"]{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+    height: 30px;
+    background: #0e4c15;
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #fff;
+    border-radius: .25rem;
+    cursor: pointer;
+    float: left;
+}
+form input[type="submit"]:hover{
+    background: #298d34;
+}
+/*====Tratamento de Tabelas*/
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    float: left;
+     margin-bottom: 10%;
+    border-bottom:1px solid #ccc;
+  }
+  th{
+    text-align: center;
+    padding: 6px;
+   
+    box-sizing: border-box;
+  }
+   table thead{
+      background:#3783b5;
+      font-size:1.1em;
+      color:#fff;
+    
+  }
+  table tbody{
+      font-size:1em;
+      cursor: pointer;
+      
+  }
+  tr:nth-child(even) {
+    background-color: #f1f1f1;
+  }
+  table tbody tr{
+    line-height: 2;
+    background: #fff;
+    color: #5e6467;   
+  }
+  table tbody tr:hover{
+      background: #dbdfe4;
+  }
+  .login{
+      width: 90%;
+      float: left;
+      margin-left:5%;
+  }
+  .processaCadastro{
+      width: 100%;
+      float: left;
+      background-color: #bd1886;
+  }
+  
+/*TRATAMENTO DO FOOTER*/
+.Footer{
+     width: 100%;
+    float: left;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+@media screen and (min-width:720px){
+/*TRATAMENTO DO HEADER*/
+    .logo h1{
+        font-size: 2em;
+    }
+    .menu ul li{
+        margin-right: 20px;
+    }
+    .menu ul li a{
+        font-size: 1.4em;
+        
+    }
+    .menu ul li a:hover{
+        transition: 1s ease-in-out;
+        border-bottom: 1px dashed #FF1493;
+    }
+/*TRATAMENTO DA MAIN*/
+.banner img{
+    height: 500px;
+}
+    .fazemos h1{
+        margin-top: 2%;
+    }
+    .fazemos span{
+       
+        font-size: 1.4em;
+    }
+    .cards{
+      margin-top: -7%;
+    }
+    .card{
+        width: 25%;
+    }
+    .Reserva{
+        width: 30%;
+        margin-left: 10%;
+        margin-top: 10%;
+        margin-bottom: 6%;
+        border-radius: 4px;
+    }
+    .diserReserva{
+        display: block;
+        width: 30%;
+        float: left;
+        margin-left: 10%;
+        margin-top: 10%;
+        margin-bottom: 6%;
+   
+    }
+    .diserReserva h2{
+        width: 100%;
+        float: left;
+        text-align: center;
+        font-size: 1.7em;
+        font-weight: 600;
+        color: #FF1493;
+    }
+    .diserReserva span{
+        width: 100%;
+        float: left;
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 20px;
+        opacity: .8;
+    }
+    .login{
+        width: 30%;
+        float: left;
+        margin-left: 35%;
+        margin-bottom: 20%;
+        background-color:#fff;
+    }
+    .ErroCadastro{
+        width: 90%;
+        margin-left: 5%;
+        float: left;
+        padding: 15px;
+        color: #fff;
+        background-color: rgb(236, 71, 93);
+        border-radius: 4px;
+    }
+    /*TRATAMENTO DO FOOTER*/
+    /*TRATAMENTO DO COMPORTAMENTO DO LADO ADMINISTRATIVO SEM RESPONSIVIDADE*/
+    .logoAdmin{
+        font-size: 1.5em;
+        color: 	#FF1493;
+        font-weight: 600;
+        float: right;
+        margin-top: 15px;
+        margin-right:10px;
+       font-family: Pump Demi Bold LET;
+    }
+    .placars{
+        width:50%;
+        margin-left: 25%;
+        float: left;
+        
+
+    }
+    .placar{
+        margin-top: 20px;
+        width: 48%;
+        float: left;
+        margin-left: 1%;
+        height: 110px;
+        border:1px solid #ddd;
+        border-radius: 2px;
+    }
+    .placar i{
+        font-size: 3em;
+        margin-top: 20px;
+        color: #FF1493;
+        margin-left: 10px;
+    }
+    .placar p{
+        width: 97%;
+        float: left;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #Resultados{
+        width: 100%;
+        float: left;
+margin-top: 20px;
+    }
+    #Resultados ul{
+        width: 30%;
+        float: left;
+        margin-left: 35%;
+    
+    }
+    #Resultados ul li{
+        width: 40%;
+        float: left;
+        text-align: center;
+        padding: .7rem;
+        background-color: rgb(97, 93, 93);
+        margin-left: 5%;
+        cursor: pointer;
+        color: #fff;
+        border-radius: 2px;
+    }
+    #Resultados ul li:hover{
+        background-color: #a5105f;
+        transition: 1s ease-in-out;
+    }
+    .Formulario{
+        width: 80%;
+        float: left;
+        margin-left: 10%;
+        margin-top: 50px;
+
+    }
+    .sucessodepoimento{
+        height: 100%;
+       width: 100%;
+       position: fixed;
+       background-color: rgba(0,0,0,.4);
+       top:0;
+       left: 0px;
+        transition:  3s;
+       transition: all 1s ease-in-out;
+       z-index: 99; 
+    }
+    .modalsucesso{
+       width:30%;
+       margin-left: 35%;
+      margin-top: 17%;
+       background: #fff;
+       float: left;
+       border-radius: 4px;
+    }
+    .modalsucesso h3{
+        width: 100%;
+        float: left;
+        padding: 10px;
+        background-color: #0ea1d2;
+        color:#fff;
+    }
+    .modalsucesso p{
+       width: 100%;
+       float: left;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       padding: 10px;
+       font-size: 1.2em;
+       text-align: center;
+      color: #181818;
+       opacity: .9;   
+    }
+    .modalsucesso .fa-close{
+       color:#bd2130;
+       float: right;
+       margin-right: 10px;
+       font-size: 2em;
+       margin-bottom: 10px;
+       cursor: pointer;
+    }
+}
